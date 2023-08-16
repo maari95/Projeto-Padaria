@@ -1,0 +1,33 @@
+.container{
+
+margin-top:5rem;
+margin-bottom: 3rem;
+padding: 3rem;
+border: 3px; 
+border-style:double;
+border-color: black;   
+width:35%;
+}
+form{
+    margin-top: 0.75rem;
+    width: 50%;
+    margin-left: 25%;
+}
+.btn, input{
+    margin-top: 1rem;
+}
+label{
+    margin-top: 1rem;
+    margin-bottom: auto;
+    color:black;
+    font-size: large;
+}
+h1{
+    margin-top: 4rem;
+    text-align: center;
+    margin-left: 1rem;
+    color:black;
+    margin-bottom: 10px;
+
+
+}
