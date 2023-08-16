@@ -8,6 +8,7 @@ import { FooterComponent } from './sharepage/footer/footer.component';
 import { LaticiniosComponent } from './page/laticinios/laticinios.component';
 import { NovoLaticinioComponent } from './page/novo-laticinio/novo-laticinio.component';
 import { AtualizarLaticinioComponent } from './page/atualizar-laticinio/atualizar-laticinio.component';
+import { LocalstorageComponent } from './page/localstorage/localstorage.component';
 
 const routes: Routes = [
   {path:'', component:ProdutoComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'footer',component:FooterComponent},
   {path: 'laticinios', component:LaticiniosComponent},
   {path: 'novoLaticinio', component:NovoLaticinioComponent},
-  {path: 'atualizarL/:id', component:AtualizarLaticinioComponent}
+  {path: 'atualizarL/:id', component:AtualizarLaticinioComponent},
+  {path: 'localstorage', component:LocalstorageComponent}
 ];
 
 @NgModule({
