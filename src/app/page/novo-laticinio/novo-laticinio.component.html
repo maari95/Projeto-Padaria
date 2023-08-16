@@ -7,7 +7,7 @@
     <form #laticinioForm="ngForm"(ngSubmit)="adicionarLaticinio(laticinioForm)">
         <div>
             <label for="nome">Nome do produto:</label>
-            <input type="text" class="form-control form-control-sm" id="nome" name="nome" [(ngModel)] = "dadosL.nome">
+            <input type="text" class="form-control form-control-sm" id="nome" name="nome" [(ngModel)] = "dadosL.nome" placeholder="Nome do produto">
             </div>
         <div>
         <label for="peso">Peso do produto:</label>
