@@ -1,8 +1,8 @@
 export interface Carrinho {
 
-    id: string;
-    nomeProduto: string;
-    preco: string;
-    quantidade:string;
+    id: number;
+    nome: string;
+    preco: number;
+    quantidade:number;
 
 }
