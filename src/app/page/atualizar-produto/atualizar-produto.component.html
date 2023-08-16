@@ -1,0 +1,17 @@
+<div class="container">
+<form #f="ngForm" (ngSubmit)="atualizarDados()">
+
+   <div>
+<label for ="nome"> Nome Produto: </label>
+<input type ="text" class="form-control form-control-sm" id ="nome" name ="nome" [(ngModel)]="dados.nome" >
+   </div>
+  
+  <div>
+   <label for = "peso"> Peso: </label>
+   <input type = "text" class="form-control form-control-sm" id ="peso" name="peso" [(ngModel)]="dados.peso">
+  </div>
+  <div>
+  <button class="btn btn-warning" type="submit"> Atualizar</button>
+</div>
+</form>
+</div>

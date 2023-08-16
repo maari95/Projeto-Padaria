@@ -1,0 +1,45 @@
+<h1>Laticínios</h1>
+
+<div class="container">    
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Peso</th>
+                <th scope="col">Validade</th>
+                <th id="centro" scope="col" [ngStyle]="{'text-align': 'center'}">Ações</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+
+            <tr *ngFor="let laticinios of laticinios">
+                <td>{{ laticinios.id}}</td>
+                <td>{{ laticinios.nome}}</td>
+                <td>{{ laticinios.peso}}</td>
+                <td>{{ laticinios.validade}}</td>
+
+                <td>
+                    <button class='btn btn-sm btn-warning' [routerLink]="'/atualizarL/' + laticinios.id">Atualizar</button>
+                    <button class='btn btn-sm btn-danger' (click)="deletar(laticinios.id)"  [ngStyle]="{'margin-left': '30px'}">Excluir</button>
+
+                </td>
+            </tr>
+
+
+            <tr>
+            <td><button id='novo' class='btn btn-sm btn-warning'[routerLink]="['/novoLaticinio']">Adicionar Novo</button></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>   
+
+
+        </tbody>
+    
+    </table>
+    
+</div>

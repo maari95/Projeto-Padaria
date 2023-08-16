@@ -1,0 +1,22 @@
+
+
+<div class="container">
+
+    <h1>Adicionar Laticínios</h1> 
+    
+    <form #laticinioForm="ngForm"(ngSubmit)="adicionarLaticinio(laticinioForm)">
+        <div>
+            <label for="nome">Nome do produto:</label>
+            <input type="text" class="form-control form-control-sm" id="nome" name="nome" [(ngModel)] = "dadosL.nome">
+            </div>
+        <div>
+        <label for="peso">Peso do produto:</label>
+        <input type="text" class="form-control form-control-sm" id="peso" name="peso" [(ngModel)] = "dadosL.peso">
+        </div>
+        <div>
+            <label for="peso">Validade do produto:</label>
+            <input type="text" class="form-control form-control-sm" id="validade" name="validade" [(ngModel)] = "dadosL.validade">
+            </div>
+            <button class="btn btn-warning" type="submit">Adicionar Produto</button>
+    </form>
+    </div>

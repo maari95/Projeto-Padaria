@@ -1,0 +1,18 @@
+<div id="body">
+<div class="container">
+
+    <h1>Adicionar Novo Produto</h1>
+    
+<form #produtoForm="ngForm"(ngSubmit)="adicionarProduto(produtoForm)">
+    <div>
+        <label for="nome">Nome do produto:</label>
+        <input type="text" class="form-control form-control-sm" id="nome" name="nome" [(ngModel)] = "dadosp.nome" placeholder="Digite o nome">
+        </div>
+    <div>
+    <label for="peso">Peso do produto:</label>
+    <input type="text" class="form-control form-control-sm" id="peso" name="peso" [(ngModel)] = "dadosp.peso" placeholder="Em gramas(g) ou quilos(kg)">
+    </div>
+        <button class="btn btn-warning" type="submit">Adicionar Produto</button>
+</form>
+</div>
+</div>
