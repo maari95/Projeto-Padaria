@@ -18,6 +18,7 @@ button, input{
     margin-left: 0.75rem;
 }
 label{
+    margin-top: 0.75rem;
     margin-bottom: auto;
     color:black;
     font-size: large;
