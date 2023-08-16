@@ -62,7 +62,7 @@ export class CarrinhoService {
     return this.carrinho.reduce((total,item)=> total + (item.preco * item.quantidade), 0)
   }
 
-// Pegar Quantidade no carrinho 
+// atualizar Quantidade no carrinho 
 
   atualizarQuantidade(item):void{
     const index = this.carrinho.findIndex(i => i.id === item.id);
@@ -71,7 +71,7 @@ export class CarrinhoService {
       this.atualizarLocalStorage();
 
 
-      
+
     }
   }
 }

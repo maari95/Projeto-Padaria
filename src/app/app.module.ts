@@ -23,6 +23,7 @@ import { LaticiniosComponent } from './page/laticinios/laticinios.component';
 import { NovoLaticinioComponent } from './page/novo-laticinio/novo-laticinio.component';
 import { AtualizarLaticinioComponent } from './page/atualizar-laticinio/atualizar-laticinio.component';
 import { LocalstorageComponent } from './page/localstorage/localstorage.component';
+import { CarrinhoComponent } from './page/carrinho/carrinho.component';
 
 registerLocaleData(localePT);
 
@@ -39,7 +40,8 @@ registerLocaleData(localePT);
     LaticiniosComponent,
     NovoLaticinioComponent,
     AtualizarLaticinioComponent,
-    LocalstorageComponent
+    LocalstorageComponent,
+    CarrinhoComponent
   ],
   imports: [
     BrowserModule,
