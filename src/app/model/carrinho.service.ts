@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Carrinho } from './carrinho';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -64,10 +65,11 @@ export class CarrinhoService {
 
 // atualizar Quantidade no carrinho 
 
-  atualizarQuantidade(item):void{
+  atualizarQuantidade(item: Carrinho):void{
+
     const index = this.carrinho.findIndex(i => i.id === item.id);
     if (index !== -1){
-      this.carrinho.[index].quantidade = item.quantidade;
+      this.carrinho[index].quantidade = item.quantidade;
       this.atualizarLocalStorage();
 
 
