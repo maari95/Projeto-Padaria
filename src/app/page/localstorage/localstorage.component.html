@@ -5,17 +5,17 @@
 
 <div>
     <label for="">Chave:</label>
-    <input type="text" [(ngModel)]="key" placeholder="Insira a chave">
+    <input type="text"  class="form-control form-control-sm" [(ngModel)]="key" placeholder="Insira a chave">
 </div>
 
 <div>
     <label for="">Valor:</label>
-    <input type="text" [(ngModel)]="value" placeholder="Insira o valor">
+    <input type="text" class="form-control form-control-sm" [(ngModel)]="value" placeholder="Insira o valor">
 </div>
 
 <!-- //Chamando a função -->
 
-<button (click)="setItem()">Definir Item</button>
-<button (click)="getItem()">Obter Item</button>
-<button (click)="removeItem()">Remover Item</button>
+<button class="btn btn-warning btn-sm" (click)="setItem()">Definir Item</button>
+<button class="btn btn-warning btn-sm" (click)="getItem()">Obter Item</button>
+<button class="btn btn-warning btn-sm" (click)="removeItem()">Remover Item</button>
 </div>
