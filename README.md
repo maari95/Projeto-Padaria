@@ -1,4 +1,29 @@
-# Padaria
+# Projeto em Angular - CRUD Padaria
+
+
+- Exercício de Aula (Angular);
+- Criação de um CRUD simples;
+- Em Construção e Ajustes.
+
+#
+
+Recursos Utilizados:
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2560px-AngularJS_logo.svg.png" width="150px" height="50px"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" width="150px" height="80px"/><img src="https://kortkamp.dev/ts_logo.png" width="150px" height="80px">
+          
+
+
+          
+
+#
+
+<a href="https://www.canva.com/design/DAFrjzFbU0Q/igp63ZpiB4cBPVObicjN_w/view?utm_content=DAFrjzFbU0Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Apresentação</a>
+
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
@@ -25,3 +50,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
