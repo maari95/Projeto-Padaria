@@ -4,13 +4,13 @@
         <ul>
             <li *ngFor="let item of carrinho">
                 {{item.nome}} - {{item.preco | currency : "BLR"}} - {{item.quantidade}}
-                <button (click)="aumentarQuantidade(item)">Aumentar Quantidade</button>
-                <button (click)="removerItem(item)">Remover Quantidade</button>
+                <button class="btn btn-warning" (click)="aumentarQuantidade(item)">Aumentar Quantidade</button>
+                <button class="btn btn-warning" (click)="removerItem(item)">Remover Quantidade</button>
             </li>
         </ul>
         <p>Valor total: {{calcularValor() | currency : "BRL"}}</p>
-        <button (click)="adicionarItem()">Adicionar Item</button>
-        <button (click)="limparCarrinho()" *ngIf="carrinho.length > 0">Limpar Carrinho</button>
+        <button class="btn btn-warning" (click)="adicionarItem()">Adicionar Item</button>
+        <button class="btn btn-warning" (click)="limparCarrinho()" *ngIf="carrinho.length > 0">Limpar Carrinho</button>
         
     </div>
 </div>    
