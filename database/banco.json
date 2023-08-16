@@ -1,0 +1,34 @@
+{
+  "produto": [
+    {
+      "nome": "Pão doce",
+      "peso": "400g",
+      "id": 1
+    },
+    {
+      "nome": "Sonho de Padaria",
+      "peso": "500g",
+      "id": 2
+    }
+  ],
+  "laticinios": [
+    {
+      "nome": "Manteiga",
+      "peso": "400g",
+      "validade": "12/10/2023",
+      "id": "1"
+    },
+    {
+      "nome": "Queijo Cheddar ",
+      "peso": "200g",
+      "validade": "05/09/2023",
+      "id": "LNnFGrw"
+    },
+    {
+      "nome": "Requeijão",
+      "peso": "200g",
+      "validade": "12/10/2023",
+      "id": "WdlYX_K"
+    }
+  ]
+}
