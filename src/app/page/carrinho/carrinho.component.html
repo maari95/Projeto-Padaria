@@ -8,7 +8,7 @@
                 <button class="btn btn-warning btn-sm" (click)="removerItem(item)">Remover Quantidade</button>
             </li>
         </ul>
-        <p>Valor total: {{calcularValor() | currency : "BRL"}}</p>
+        <p id="valorTotal">Valor total: {{calcularValor() | currency : "BRL"}}</p>
         <button class="btn btn-warning btn-sm" (click)="adicionarItem()">Adicionar Item</button>
         <button class="btn btn-warning btn-sm" (click)="limparCarrinho()" *ngIf="carrinho.length > 0">Limpar Carrinho</button>
         
