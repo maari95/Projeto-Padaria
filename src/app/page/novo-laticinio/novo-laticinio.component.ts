@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Laticinios } from 'src/app/model/laticinios';
-import { LaticiosServiceService } from 'src/app/service/laticios-service.service';
+import { LaticiosServiceService } from 'src/app/model/laticios-service.service';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
 

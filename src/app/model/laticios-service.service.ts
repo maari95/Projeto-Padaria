@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Laticinios } from '../model/laticinios';
+import { Laticinios } from './laticinios';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 

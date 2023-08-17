@@ -1,5 +1,4 @@
 import { TestBed } from '@angular/core/testing';
-
 import { LaticiosServiceService } from './laticios-service.service';
 
 describe('LaticiosServiceService', () => {

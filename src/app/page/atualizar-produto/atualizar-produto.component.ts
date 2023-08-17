@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute} from '@angular/router';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ProdutoServiceService } from 'src/app/service/produto-service.service';
+import { ProdutoServiceService } from 'src/app/model/produto-service.service';
 import { Produto } from 'src/app/model/produto';
 
 @Component({

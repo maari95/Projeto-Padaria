@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { ProdutoServiceService } from 'src/app/service/produto-service.service';
+import { ProdutoServiceService } from 'src/app/model/produto-service.service';
 import { Produto } from 'src/app/model/produto';
 import { Router } from '@angular/router';
 

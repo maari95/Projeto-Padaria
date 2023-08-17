@@ -3,7 +3,7 @@ import { Laticinios } from 'src/app/model/laticinios';
 import { ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { LaticiosServiceService } from 'src/app/service/laticios-service.service';
+import { LaticiosServiceService } from 'src/app/model/laticios-service.service';
 
 
 @Component({
