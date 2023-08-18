@@ -11,12 +11,13 @@ import { LaticiosServiceService } from 'src/app/model/laticios-service.service';
   templateUrl: './atualizar-laticinio.component.html',
   styleUrls: ['./atualizar-laticinio.component.css']
 })
+
 export class AtualizarLaticinioComponent {
 
   laticiniosForm! : FormGroup;
 
   dadosL: Laticinios={
-    id:'',
+    id:0,
     nome:'',
     peso:'',
     validade:''

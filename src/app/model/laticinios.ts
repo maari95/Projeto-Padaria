@@ -1,5 +1,5 @@
 export interface Laticinios{
-    id?: string;
+    id?: number;
     nome:string;
     peso:string;
     validade:string;

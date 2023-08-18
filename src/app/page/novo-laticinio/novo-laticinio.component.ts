@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 export class NovoLaticinioComponent {
 
   dadosL: Laticinios={
-    id:'',
+    id: 0,
     nome:'',
     peso:'',
     validade:''
