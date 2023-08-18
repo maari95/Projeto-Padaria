@@ -24,6 +24,7 @@ import { NovoLaticinioComponent } from './page/novo-laticinio/novo-laticinio.com
 import { AtualizarLaticinioComponent } from './page/atualizar-laticinio/atualizar-laticinio.component';
 import { LocalstorageComponent } from './page/localstorage/localstorage.component';
 import { CarrinhoComponent } from './page/carrinho/carrinho.component';
+import { TokenComponent } from './page/token/token.component';
 
 registerLocaleData(localePT);
 
@@ -41,7 +42,8 @@ registerLocaleData(localePT);
     NovoLaticinioComponent,
     AtualizarLaticinioComponent,
     LocalstorageComponent,
-    CarrinhoComponent
+    CarrinhoComponent,
+    TokenComponent
   ],
   imports: [
     BrowserModule,
