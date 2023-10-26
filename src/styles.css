@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
 body{
-    background-image: url('assets/back.jpg');
+    background-image: url('assets/01.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    
+}
+form{
+    font-family: 'Cinzel', serif;
+    font-size: medium;
+    color:black;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    color:black;
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold; /* Espessura e cor do contorno */
+
 }

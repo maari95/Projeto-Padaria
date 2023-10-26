@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 4.5rem;
+    color: black;
+    text-shadow: -2px -2px 0 gold, 2px -2px 0 gold, -2px 2px 0 gold, 2px 2px 0 gold; /* Espessura e cor do contorno */
+}
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 14rem;
+}
+h2{
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+
+}

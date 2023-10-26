@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
 footer{
     position: fixed;
     left: 0;
@@ -7,4 +10,7 @@ footer{
     background-color: #f0f0f0; /* Defina uma cor de fundo para o footer, se necessário */
     padding: 20px;
     text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: medium;
+    color:black;
   }
